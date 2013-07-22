@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[])
 {
-  int k, precision;
+  int k, precision=0;
   double p16 = 1, pi = 0;
 
   precision = atoi(argv[1]);
